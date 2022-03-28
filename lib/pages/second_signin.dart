@@ -87,7 +87,7 @@ class SecondSignin extends StatelessWidget {
                     borderRadius: BorderRadius.circular(71),
                     borderSide: BorderSide.none,
                   ),
-                  hintText: '*******',
+                  hintText: 'Password',
                   hintStyle: GoogleFonts.openSans(
                     color: Color(0xffBEBEBE),
                     fontSize: 14,
