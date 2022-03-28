@@ -15,7 +15,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: EmptyV2(),
+      home: EmptyV1(),
     );
   }
 }

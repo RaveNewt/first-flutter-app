@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:travel_app/widget/theme.dart';
 
 class EmptyV1 extends StatelessWidget {
 
@@ -22,11 +23,7 @@ class EmptyV1 extends StatelessWidget {
             ),
             Text(
               'Success Order',
-              style: GoogleFonts.poppins(
-                color: Color(0xff0E1954),
-                fontSize: 24,
-                fontWeight: FontWeight.w600,
-              ),
+              style: blackText,
             ),
             SizedBox(
               height: 16,
@@ -36,10 +33,7 @@ class EmptyV1 extends StatelessWidget {
               child: Text(
                 'We will delivery your package as soon as possible',
                 textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(
-                  color: Color(0xff0E1954),
-                  fontSize: 16,
-                ),
+                style: lightBlackStyle,
               ),
             ),
             SizedBox(height: 50,),
@@ -57,11 +51,7 @@ class EmptyV1 extends StatelessWidget {
                   onPressed: (){}, 
                   child: Text(
                     'Done',
-                    style: GoogleFonts.openSans(
-                      color: Color(0xffF8F8F8),
-                      fontWeight: FontWeight.w600,
-                      fontSize: 18,
-                    ),
+                    style: buttonTextStyle,
                   ),
                 ),
               ),

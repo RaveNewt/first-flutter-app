@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:travel_app/widget/theme.dart';
 class EmptyV2 extends StatelessWidget {
 
   @override
@@ -18,11 +19,7 @@ class EmptyV2 extends StatelessWidget {
           SizedBox(height: 68,),
           Text(
             'Boost Profit!',
-            style: GoogleFonts.poppins(
-              color: Colors.white,
-              fontSize: 24,
-              fontWeight: FontWeight.w600,
-            ),
+            style: TitleText,
           ),
           SizedBox(height: 16,),
           Padding(
@@ -30,10 +27,7 @@ class EmptyV2 extends StatelessWidget {
             child: Text(
               'Our tools are helping business to grow much faster',
               textAlign: TextAlign.center,
-              style: GoogleFonts.poppins(
-                color: Colors.white,
-                fontSize: 16,
-              ),
+              style: lightWhiteStyle,
             ),
           ),
           SizedBox(height: 59,),
