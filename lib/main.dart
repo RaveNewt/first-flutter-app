@@ -5,6 +5,8 @@ import 'package:travel_app/pages/first_signin.dart';
 import 'package:travel_app/pages/first_started.dart';
 import 'package:travel_app/pages/pricing_1.dart';
 import 'package:travel_app/pages/pricing_2.dart';
+import 'package:travel_app/pages/random_v1.dart';
+import 'package:travel_app/pages/random_v2.dart';
 import 'package:travel_app/pages/rating2.dart';
 import 'package:travel_app/pages/rating_1.dart';
 import 'package:travel_app/pages/second_signin.dart';
@@ -19,7 +21,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PricingV2(),
+      home: RandomV2(),
     );
   }
 }
