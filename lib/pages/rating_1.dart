@@ -79,7 +79,7 @@ class Rating1 extends StatelessWidget {
                   style: TextButton.styleFrom(
                     backgroundColor: Color(0xff34D186),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(60)
+                      borderRadius: BorderRadius.circular(60),
                     )
                   ),
                   onPressed:  (){}, 
